@@ -1,3 +1,4 @@
+
 public class Cadastro {
  public static void main(String[] args) {
 
@@ -12,6 +13,8 @@ public class Cadastro {
   System.out.println(livro.valor);
   System.out.println(livro.isbn);
 
+livro.mostrarDetalhes();
+
  
   Livro seglivro = new Livro();
   seglivro.nome = "lógica de programacao";
@@ -23,6 +26,8 @@ public class Cadastro {
   System.out.println(seglivro.descricao);
   System.out.println(seglivro.valor);
   System.out.println(.isbn);
+
+seglivro.mostrarDetales();
 
   }
 }
