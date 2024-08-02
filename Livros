@@ -3,6 +3,9 @@ public class Livros {
 		String descricao;
 		double valor;
 		String isbn;
+		String nome_Autor;
+		String email_autor;
+		String cpf_autor;
 		
 		void mostrarDetalhes() {
 			String mensagem = "Mostrar detalhes do Livro";
